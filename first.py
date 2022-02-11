@@ -1,9 +1,6 @@
 import pandas as pd
 import streamlit as st
 import altair as alt
-from streamlit_folium import folium_static
-import folium
-from branca.colormap import linear, LinearColormap
 
 st.header("Climate Changes Between 1980-2020")
 st.write("""
